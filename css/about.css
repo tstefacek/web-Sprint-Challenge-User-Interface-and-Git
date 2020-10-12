@@ -28,40 +28,82 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-*{box-sizing:border-box;}
+*{box-sizing:border-box;
+}
 body{
     font-family: 'Roboto', sans-serif;
 }
+
 nav{
     display:flex;
     flex-flow:row wrap;
     justify-content:space-between;
     align-items:flex-end;
-    margin:30px 360px;
+    margin:30px 275px;
     text-decoration: none;
 }
 nav a{
     text-decoration: none;
     color:black;
 }
-.headerImage{
+.headerImage{   
     display:flex;
     justify-content:center;
-    margin:20px;
 }
 .aboutSection{
     display:flex;
     justify-content:space-around;
     margin:15px;
 }
-.lineOne{
+.lineOne, .lineTwo{
     display:flex;
     flex-flow:row nowrap;
     justify-content: space-around;
 }
+.sectionOne{
+    display:flex;
+    flex-flow:column wrap;
+    justify-content: center;
+    margin:10px 10px 10px 275px;
+}
 
+.sectionTwo{
+    display:flex;
+    flex-flow:column wrap;
+    justify-content: center;
+    margin:10px 275px 10px 10px
+}
+.sectionThree{
+    display:flex;
+    flex-flow:column wrap;
+    justify-content: center;
+    margin:10px 10px 10px 275px;
+}
 
+.sectionFour{
+    display:flex;
+    flex-flow:column wrap;
+    justify-content: center;
+    margin:10px 275px 10px 10px
 
+}
+
+p{
+    margin:10px;}
+
+.footerText{
+    display:flex;
+    justify-content:space-evenly;
+    margin:10px;
+}
+
+footer{
+    background:black;
+    padding:20px;
+}
+footer nav a{
+    color:white;
+}
 
 button{
     border-radius:10px;
